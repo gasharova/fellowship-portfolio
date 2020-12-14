@@ -1,7 +1,7 @@
 <h2>Projects</h2>
 <div class="card-container">
     {% for item in site.data.projects %}
-    {% if item.page-name %}
+    {% if item.page-url %}
     <a href="{{ item.page-url }}">
     {% else %}
     <a>
